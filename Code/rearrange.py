@@ -1,5 +1,5 @@
 import sys
-import random
+import random2
 
 
 def rearrange_words(input_words):
@@ -9,7 +9,6 @@ def rearrange_words(input_words):
     rearranged_words = []
 
     # Randomly put input_words into 'rearranged_words' list until all input_words are used
-
     while len(rearranged_words) < len(input_words):
         random_index = random.randint(0, len(input_words)-1)
         random_word = input_words[random_index]
