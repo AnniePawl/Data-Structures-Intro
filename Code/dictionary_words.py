@@ -21,9 +21,9 @@ with open("/usr/share/dict/words", "r") as file:
 
     random_word = random.choices(list_of_words, k=word_count)
 
-    word_list.append(random_word)
+    word_list.append(' '.join(random_word))
 
 
 if __name__ == '__main__':
-
-    print(word_list)
+    # fist value in array
+    print(word_list[0])
