@@ -6,28 +6,24 @@
 import sys
 import random
 
-# Read from this file
-file = open("creatures.txt")
+word_count = int(' '.join(sys.argv[1:]))
+word_list = []
 
-# Select Random Words, Split, and Store in a Data Type
-list_of_words = file.read().split(" ")
-# Specify number of words you want from sample
-random_words = random.choices(list_of_words, k=6)
+with open("/usr/share/dict/words", "r") as file:
+    # Select Random Words, Split, and Store in a Data Type
+    list_of_words = file.read().splitlines()
+    # print(list_of_words)
+    # print(len(list_of_words))
+    # while word_count < len(word_list):
+
+    random_index = random.randint(0, len(list_of_words))
+    # print(random_index)
+
+    random_word = random.choices(list_of_words, k=word_count)
+
+    word_list.append(random_word)
 
 
-# Form Sentence
-random_sentence = ' '.join(random_words)
-print(random_sentence)
+if __name__ == '__main__':
 
-
-# ANOTHER WAY
-# Word_Count=input("Please enter a number")
-# word_list = []
-
-# with open("/usr/share/dict/words", "r") as file:
-#     while Word_Count < len(word_list):
-#         random_num = random.randint(0,len(list_of_words))
-#         random_word = list_of_words(random_num)
-#         word_list.append(random_word)
-
-#     print(''.join(word_list))
+    print(word_list)
