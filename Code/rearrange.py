@@ -1,5 +1,5 @@
 import sys
-import random2
+import random
 
 
 def rearrange_words(input_words):
