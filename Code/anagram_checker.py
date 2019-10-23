@@ -2,7 +2,7 @@ import sys
 
 
 def anagram(input1, input2):
-    # Check if inputs are same length
+    # Check if inputs are same
     sorted1 = sorted(input1)
     sorted2 = sorted(input2)
 
