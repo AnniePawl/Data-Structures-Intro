@@ -7,5 +7,6 @@ def reverse_word(input_word):
     return reversed_word
 
 
-input_word = sys.argv[1:]
-print(reverse_word(' '.join(input_word)))
+if __name__ == '__main__':
+    input_word = sys.argv[1:]
+    print(reverse_word(' '.join(input_word)))
