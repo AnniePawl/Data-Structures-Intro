@@ -1,1 +1,1 @@
-Cat, Dog, Panda, Lion, Seahorse, Butterfly, Praying Mantis, Buffalo, Hippo, Penguin, Kitten, Lizard, Ant, Slug, Sloth, Pony, Cricket, Beaver, Bunny, Rabbit, Eagle, Hummingbird, Blue Whale, Zebra, Squid, Shark, Coral, Bacteria
+Cat Dog Panda Lion Seahorse Butterfly Praying Mantis Buffalo Hippo Penguin Kitten Lizard Ant Slug Sloth Pony Cricket Beaver Bunny Rabbit Eagle Hummingbird Blue Whale Zebra Squid Shark Coral Bacteria

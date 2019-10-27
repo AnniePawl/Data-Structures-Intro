@@ -14,6 +14,10 @@ nuts = ("cashew", "peanut", "almond", "walnut")
 
 dairy = ("milk", "butter", "cream", "cheese")
 
+teachers = ("Dani", "Mitchell", "Alan", "Braus")
+
+drinks = ("Soda", "Milkshake", "Lassi", "Tea", "Coffee", "Water")
+
 
 def random_dog():
     random_index = random.randint(0, len(dogs)-1)
@@ -45,6 +49,16 @@ def random_dairy():
     return dairy[random_index]
 
 
+def random_teacher():
+    random_index = random.randint(0, len(teachers)-1)
+    return teachers[random_index]
+
+
+def random_drink():
+    random_index = random.randint(0, len(drinks)-1)
+    return drinks[random_index]
+
+
 if __name__ == '__main__':
     fruit = random_fruit()
     print(fruit)
@@ -58,3 +72,7 @@ if __name__ == '__main__':
     print(nut)
     dairy = random_dairy()
     print(dairy)
+    teacher = random_teacher()
+    print(teacher)
+    drink = random_drink()
+    print(drink)

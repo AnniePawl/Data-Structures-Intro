@@ -2,6 +2,7 @@ import sys
 
 
 def reverse_word(input_word):
+    """Reverses order of a single word"""
     reversed_word = input_word[::-1]
 
     return reversed_word

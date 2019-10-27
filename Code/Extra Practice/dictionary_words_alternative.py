@@ -6,7 +6,7 @@ number = input("Enter a number: ")
 
 
 def get_words(text):
-    """ reads file, strips leading and trailer characters, returns list of stings (#TODO?) """
+    """ reads file, strips leading and trailer characters, returns list of stings """
     words = []
     with open("/usr/share/dict/words", "r") as file:  # closes file when done
         text = file.read().strip().split(" ")

@@ -1,8 +1,10 @@
+# ANAGRAM CHECKER
+
 import sys
 
 
 def anagram_checker(input1, input2):
-
+    """Checks if two commandline argument are anagrams"""
     sorted_input1 = sorted(input1)
     sorted_input2 = sorted(input2)
 
