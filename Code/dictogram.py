@@ -27,7 +27,7 @@ class Dictogram(dict):
         else:
             # If not found in dict, it's new, create new Type w/ 1 token
             self[word] = count
-            self.types = += 1
+            self.types += 1
             self.tokens += count
 
     def frequency(self, word):
